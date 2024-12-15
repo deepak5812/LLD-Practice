@@ -13,8 +13,7 @@ public class SingletonLazy {
 
         if(singletonLazy==null){
             singletonLazy=new SingletonLazy();
-        }else{
-            return singletonLazy;
         }
+            return singletonLazy;
     }
 }
