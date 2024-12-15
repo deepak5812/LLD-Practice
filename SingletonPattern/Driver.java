@@ -6,5 +6,6 @@ public class Driver {
         SingletonEager singletonEager=SingletonEager.getSingletonInstance();
         SingletonLazy singletonLazy=SingletonLazy.getSingletonLazy();
         SingletonSynchronized singletonSynchronized=SingletonSynchronized.getSingletonSynchronized();
+        SingletonBillPugh singletonBillPugh=SingletonBillPugh.getSingletonBillPughInstance();
     }
 }
