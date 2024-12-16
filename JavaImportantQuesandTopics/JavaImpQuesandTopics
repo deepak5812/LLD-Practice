@@ -1,0 +1,11 @@
+NOTES:
+
+explicit or downcasting- It means storing larger variable into the smaller one or storing referece of parent class into child class
+implicit or upcasting- it means storing smaller variable into the largerOne or storing the reference of the child class to the parent class
+
+Boxing and Unboxing in the Wrapper class
+Boxing- storing the primitive datatype into their corresponding wrapper class object
+Unboxing-storing the  wrapper class object into their corresponding primitive datatype
+
+Abstract Method- An abstract method is declared without a body in an abstract class. It must be implemented by subclasses.
+Method- A method in Java is a block of code that performs a specific task.
