@@ -9,3 +9,42 @@ Unboxing-storing the  wrapper class object into their corresponding primitive da
 
 Abstract Method- An abstract method is declared without a body in an abstract class. It must be implemented by subclasses.
 Method- A method in Java is a block of code that performs a specific task.
+
+Why Constructor do no have Return Type
+Why Constructor name is same as Class Name
+reason- because it makes them different from the other methods
+Why Constructor can not be declared as FINAL
+Why Constructor can not be declared as ABSTRACT
+Why Constructor can not be declared as STATIC
+reason- constructor are used to initialize or create the object of the class So, it pointless to used final,static and abstract keyword
+Why Interface do not have constructor
+reason-
+
+What kind of data is Stored in Stack and Heap with Example
+reason- usually primitive data is stored in stack and heap is used to stored the object ,array,and classes etc
+Garbage Collector- It is something which is removed the unpointed objects to free up the memory
+
+Types of References
+Strong Reference- It says that objects inside the memory cannot is removed by GC until it is disconnect
+Example- Person obj=new Person();
+Weak Reference- It says that objects inside the memory should be removed by GC when it periodically runs
+Example- WeakReference<Person> weakObjRef=new WeakReference<Person>(obj);
+Soft Reference- It says that objects inside the memory should be removed by GC until it is necessary
+Example- SoftReference<Person> softObjRef=new SoftReference<Person>(obj);
+
+Heap Memory Structure- Heap memory is divided into the 3 parts Young Generation,Old Generation and Metaspace
+Young Generation- it is also divided into 3 parts Eden Supervisor(S0,S1) and It contains small objects and here it is running minor GC more periodically here
+Eden
+Survivor (S0 and S1)
+
+Old Generation- It contains Large and Old objects and here it is running Major GC less periodically here
+Metaspace- It is used to stored the class etc
+
+How Garbage Collector work & clean up the Heap memory with Example
+reason- it uses Mark and Sweep algo and Compact mark and Sweep algo
+Types of Garbage Collector
+Single GC- GC is only running by 1 thread.
+Parallel GC- GC is only running by multiple parallel thread depending on the core
+CMS (Concurrent Mark and Sweep)-
+G1 GC-
+
