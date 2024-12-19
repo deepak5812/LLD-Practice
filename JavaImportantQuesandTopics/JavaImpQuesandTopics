@@ -48,3 +48,11 @@ Parallel GC- GC is only running by multiple parallel thread depending on the cor
 CMS (Concurrent Mark and Sweep)-
 G1 GC-
 
+Concrete Class- It is simple classes that can be initialized and having data members and methods
+Abstract Class- It is those classes that cannot be initialized and May have abstracts methods and simple methods that can be initialize
+Nested Class-  The class inside of the another class is called nested class
+Static Nested Class- Static Nested class are those classes in which parent class is simple class and Nested class is static
+Non Static Nested or Inner Class- Inner classes are those classes which is simple nested classes
+Anonymous Inner Class-Anonymous class are those classes which do not have any name
+It is used to create a one-time use class, typically as an implementation of an interface or an extension of a class.
+
