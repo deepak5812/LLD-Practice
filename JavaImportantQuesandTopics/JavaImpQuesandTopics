@@ -1,5 +1,10 @@
 NOTES:
-
+SOLID PRINCIPLES
+S- Single Responsibility Principle
+O- Open for extension closed for modifications
+L- Liskov Subsitution Principle
+I- Interface Segregation Principle
+D- Dependency Inversion Principle
 explicit or downcasting- It means storing larger variable into the smaller one or storing referece of parent class into child class
 implicit or upcasting- it means storing smaller variable into the largerOne or storing the reference of the child class to the parent class
 
