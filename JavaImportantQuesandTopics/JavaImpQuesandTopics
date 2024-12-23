@@ -61,3 +61,5 @@ Non Static Nested or Inner Class- Inner classes are those classes which is simpl
 Anonymous Inner Class-Anonymous class are those classes which do not have any name
 It is used to create a one-time use class, typically as an implementation of an interface or an extension of a class.
 
+Shallow Copy- Creates a new object but copies references, so changes in one affect the other.
+Deep Copy- Creates a completely independent object with its own copy of the data.
