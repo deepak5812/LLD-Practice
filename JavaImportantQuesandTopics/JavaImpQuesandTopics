@@ -63,3 +63,5 @@ It is used to create a one-time use class, typically as an implementation of an 
 
 Shallow Copy- Creates a new object but copies references, so changes in one affect the other.
 Deep Copy- Creates a completely independent object with its own copy of the data.
+
+A memory leak occurs when a program allocates memory dynamically (e.g., for objects or variables) but fails to release it when it's no longer needed.
