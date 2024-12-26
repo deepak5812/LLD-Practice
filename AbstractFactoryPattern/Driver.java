@@ -2,6 +2,7 @@ package Patterns.AbstractFactoryPattern;
 
 import Patterns.AbstractFactoryPattern.Factories.VehicleFactory;
 import Patterns.AbstractFactoryPattern.Factories.VehicleFactorySelector;
+import Patterns.MyHashMapImpl.MyHashMap;
 
 public class Driver {
 
