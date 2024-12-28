@@ -1,0 +1,58 @@
+Computer Networks
+
+OSI(open System Inteerconnection) is a reference model given by the ISO(Internet Standard Orgainization)
+
+It have 7 Layers:
+1 Application Layer:
+    It is the Layer that contains the bunch of protocols like Http,Https,DNS,SMTP FTP etc.
+    This layer uses the software like brower,skype etc to use that protocols.
+
+2 Presentation Layer:
+    Translation: It is used to convert ascii/unicode to the binary code
+    Data Compression: It is used to compress the data like text/video/audio (using huffman algo)
+    Encryption: It is also sued to encrypt the data using ssl or tsl(modern)
+
+3 Session Layer:
+    It is used to manage,terminate and Established the connections.
+    And also checked for the authorization and authentication
+    authentication: Authentication is the process of verifying the identity of a user or system by checking their credentials (such as a username, password, or other forms of identification) to ensure they are genuine.
+    authorization: Authorization is the process of determining whether a user or system has the necessary permissions to access a specific resource or perform a certain action, based on their roles or access rights.
+
+4 Transport Layer:
+    Segmentaion:
+        It is a Process of dividing the data into the segments is called segmentation.
+        each segment have 3 things data, port no, seq no.
+    Flow Control:
+        It is used to control the flow of data (means speed) between host and server.
+    Error Control:
+        CheckSum and automatic repeat request
+
+5 Network Layer:
+    Packets: It is basically a collection of source address and the destination address and the segments called packets which travels over internet.
+    Logical-adressing:  It involves assigning unique identifiers (addresses) to devices on a network to facilitate communication across interconnected networks.
+    Routing: Routing is the process used by the network layer of the OSI model (or the Internet layer in the TCP/IP model) to determine the best path for data packets to travel from a source to a destination across interconnected networks.
+    Path-determination: It is used to find the best path from Host to the server.
+
+6 Datalink Layer:
+     Framing: The Data Link Layer encapsulates raw packets into frames (structured data units) for transmission and head(mac src and mac dest) and tail into it.
+     Flow Control: Manage the rate of transmission of data.
+     Physical Addressing: Uses MAC (Media Access Control) addresses to uniquely identify devices on a local network.
+7 Physical Layer:
+     It work is to convert the bits to the signals.
+
+
+OSI                                 TCP/IP
+Application Layer      |
+PresentationLayer      |------------Application Layer
+Session Layer          |
+
+Transport Layer        |------------Transport Layer
+
+Network Layer          |------------Network Layer
+
+Datalink Layer         |----------|-Physical Layer
+Physical Layer         |----------|
+
+Topologies: It is used to show how the physical layout of the nodes connected to each other in a network.
+exmples: mesh,ring,bus,tree etc.
+
