@@ -56,3 +56,38 @@ Physical Layer         |----------|
 Topologies: It is used to show how the physical layout of the nodes connected to each other in a network.
 exmples: mesh,ring,bus,tree etc.
 
+Data Link Layer in Detail:
+--------------------------
+    framing: It is used to convert the packets into the frames.
+    media-access-control: It is also used to give the media-access control(means suppose in a bus topology there are two nodes wanted to communicates so, it is control by it).
+    error-detection: It is also used in error detection to find the errors.
+    control-flows: It is also controlling the flow of data.
+    physically addressing: Allocating the MAC address to all the physical devices with in the network.
+
+Delays are of two types:
+    Transmission Delay: It is defined aas the time is taken from the creation of frame and send it to the cable.
+
+    Propagation Delay: It is defined as the time which is used travel the frame from the start of the src cable to the destination of the cable.
+
+And for each of the following features we use some algo and protocols for it to implements.
+
+    Flow Controls:
+    --------------
+    For flow controls we used STOP AND WAIT ARQ(Automatic repeating Request)
+
+    1.1 STOP AND WAIT ARQ
+        ./DiagramsOfComputerNetworks/STOP_AND_WAIT_ARQ_.png
+    1.2 STOP AND WAIT ARQ LOST FRAME
+        ./DiagramsOfComputerNetworks/STOP_AND_WAIT_ARQ_LOST_FRAME.png
+    1.3 STOP AND WAIT ARQ LOST ACK
+        ./DiagramsOfComputerNetworks/STOP_AND_WAIT_ARQ_LOST_ACK.png
+    1.4 STOP AND WAIT ARQ Delay ACK
+        ./DiagramsOfComputerNetworks/STOP_AND_WAIT_ARQ_Delay_ACK.png
+
+    2.1 SLIDING WINDOW PROTOCOLS
+        .DiagramsOfComputerNetworks/SLIDING_WINDOW_PROTOCOL.png
+
+
+
+
+
