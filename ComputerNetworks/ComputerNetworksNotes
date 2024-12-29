@@ -89,6 +89,27 @@ And for each of the following features we use some algo and protocols for it to 
     3.1 GO BACK N PROTOCOLS
     4.1 SELECTIVE REPEAT PROTOCOLS
 
+Multiple/Media Access Protocols (MAP)
+-------------------------------------
+|
+|__Channelization Protocol-FDMA,CDMA,TDMA
+|
+|__Controled Access Protocol-Reservation,Polling,Token Passing
+|
+|__Ramdom Access Protocol-ALOHA,SLOTTED-ALOHA,CSMA/CD
+
+Channelization Protocol:-
+FDMA-Frequency Division Media Access(On dividing the frequency we divide each hosts)
+TDMA-Time Division Media Access(means each host is provided time slot for sending data)
+CDMA-code Division Media Access(in this code is multiply with the data in a bus topology and we can easily decouple data from it)
+
+Controled Access Protocol:-
+Polling- It means that the Primary or the master node ask each other nodes that if it has data or not and if it has then it has send it.
+Reservation-
+Token-Passing- In this suppose a ring topolgy there is a n1 wanted to send the data to n3 then n1 get the token then send it to the n2 then n2 forward to n3 tand then n3 copy the data and send it to the n1
+
+
+
 
 
 
