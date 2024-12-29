@@ -84,8 +84,10 @@ And for each of the following features we use some algo and protocols for it to 
     1.4 STOP AND WAIT ARQ Delay ACK
         ./DiagramsOfComputerNetworks/STOP_AND_WAIT_ARQ_Delay_ACK.png
 
-    2.1 SLIDING WINDOW PROTOCOLS
+    2.1 SLIDING WINDOW PROTOCOLS -> it is just for reference
         .DiagramsOfComputerNetworks/SLIDING_WINDOW_PROTOCOL.png
+    3.1 GO BACK N PROTOCOLS
+    4.1 SELECTIVE REPEAT PROTOCOLS
 
 
 
