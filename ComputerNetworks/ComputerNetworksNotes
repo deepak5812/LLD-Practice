@@ -1,5 +1,5 @@
 Computer Networks
-
+It is a network of the different devices in a network which can communicate and shared their resources with each other.
 OSI(open System Inteerconnection) is a reference model given by the ISO(Internet Standard Orgainization)
 
 It have 7 Layers:
@@ -107,6 +107,7 @@ Controled Access Protocol:-
 Polling- It means that the Primary or the master node ask each other nodes that if it has data or not and if it has then it has send it.
 Reservation-
 Token-Passing- In this suppose a ring topolgy there is a n1 wanted to send the data to n3 then n1 get the token then send it to the n2 then n2 forward to n3 tand then n3 copy the data and send it to the n1
+
 
 
 
