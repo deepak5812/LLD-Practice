@@ -16,7 +16,8 @@ public class MyLinkedList<V>{
             this.value = value;
         }
     }
-
+    // 5 Functions that left to Implements
+    // addFirst(V val),addLast(V val),clear(),removeAt(int idx),setAt(V val,int idx);
     public void add(V value){
         Node node =new Node();
         node.value=value;
