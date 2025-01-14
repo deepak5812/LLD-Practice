@@ -65,3 +65,12 @@ Shallow Copy- Creates a new object but copies references, so changes in one affe
 Deep Copy- Creates a completely independent object with its own copy of the data.
 
 A memory leak occurs when a program allocates memory dynamically (e.g., for objects or variables) but fails to release it when it's no longer needed.
+
+Functional Interface-  It is defined as the type of interface which can contains only one method and we can also represent it by using the @FunctionalInterface annotation.
+Functional Interface is divided into the 4 types.
+1 Consumer  - It is a type of interface which contains one method that can take arguement and doesn't return anything.
+2 Supplier  - It is a type of interface which contains one method that cannot have arguement and return somthing.
+3 Function  - It is a type of interface which contains one method that can take arguement and return something.
+4 Predicate - It is a type of interface which contains one method that can take arguement and return boolean.
+
+Note- suppose a interface is having the one abstract method and it is extended by the functional interface then it will give error and vice-versa is possible.
