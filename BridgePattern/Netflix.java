@@ -7,7 +7,7 @@ public class Netflix extends Video {
    }
 
    @Override
-   play(String videoFile){
+   public void play(String videoFile){
     Processor.process(videoFile);
    }
 

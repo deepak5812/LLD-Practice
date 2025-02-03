@@ -7,7 +7,7 @@ public class Youtube extends Video{
     }
 
    @Override
-   play(String videoFile){
+   public void play(String videoFile){
     Processor.process(videoFile);
    }
 
